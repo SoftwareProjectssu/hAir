@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4824CE0C2DCB368B0055D7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4824CDF32DCB36890055D7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4824CDFA2DCB36890055D7FC;
+			remoteInfo = RecoHair;
+		};
+		4824CE162DCB368B0055D7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4824CDF32DCB36890055D7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4824CDFA2DCB36890055D7FC;
+			remoteInfo = RecoHair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4824CDFB2DCB36890055D7FC /* RecoHair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecoHair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4824CE0B2DCB368B0055D7FC /* RecoHairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoHairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4824CE152DCB368B0055D7FC /* RecoHairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoHairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4824CDFD2DCB36890055D7FC /* RecoHair */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecoHair;
+			sourceTree = "<group>";
+		};
+		4824CE0E2DCB368B0055D7FC /* RecoHairTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecoHairTests;
+			sourceTree = "<group>";
+		};
+		4824CE182DCB368B0055D7FC /* RecoHairUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecoHairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4824CDF82DCB36890055D7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE082DCB368B0055D7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE122DCB368B0055D7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4824CDF22DCB36890055D7FC = {
+			isa = PBXGroup;
+			children = (
+				4824CDFD2DCB36890055D7FC /* RecoHair */,
+				4824CE0E2DCB368B0055D7FC /* RecoHairTests */,
+				4824CE182DCB368B0055D7FC /* RecoHairUITests */,
+				4824CDFC2DCB36890055D7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4824CDFC2DCB36890055D7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4824CDFB2DCB36890055D7FC /* RecoHair.app */,
+				4824CE0B2DCB368B0055D7FC /* RecoHairTests.xctest */,
+				4824CE152DCB368B0055D7FC /* RecoHairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4824CDFA2DCB36890055D7FC /* RecoHair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4824CE1F2DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHair" */;
+			buildPhases = (
+				4824CDF72DCB36890055D7FC /* Sources */,
+				4824CDF82DCB36890055D7FC /* Frameworks */,
+				4824CDF92DCB36890055D7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4824CDFD2DCB36890055D7FC /* RecoHair */,
+			);
+			name = RecoHair;
+			packageProductDependencies = (
+			);
+			productName = RecoHair;
+			productReference = 4824CDFB2DCB36890055D7FC /* RecoHair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4824CE0A2DCB368B0055D7FC /* RecoHairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4824CE222DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHairTests" */;
+			buildPhases = (
+				4824CE072DCB368B0055D7FC /* Sources */,
+				4824CE082DCB368B0055D7FC /* Frameworks */,
+				4824CE092DCB368B0055D7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4824CE0D2DCB368B0055D7FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4824CE0E2DCB368B0055D7FC /* RecoHairTests */,
+			);
+			name = RecoHairTests;
+			packageProductDependencies = (
+			);
+			productName = RecoHairTests;
+			productReference = 4824CE0B2DCB368B0055D7FC /* RecoHairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4824CE142DCB368B0055D7FC /* RecoHairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4824CE252DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHairUITests" */;
+			buildPhases = (
+				4824CE112DCB368B0055D7FC /* Sources */,
+				4824CE122DCB368B0055D7FC /* Frameworks */,
+				4824CE132DCB368B0055D7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4824CE172DCB368B0055D7FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4824CE182DCB368B0055D7FC /* RecoHairUITests */,
+			);
+			name = RecoHairUITests;
+			packageProductDependencies = (
+			);
+			productName = RecoHairUITests;
+			productReference = 4824CE152DCB368B0055D7FC /* RecoHairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4824CDF32DCB36890055D7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4824CDFA2DCB36890055D7FC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4824CE0A2DCB368B0055D7FC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4824CDFA2DCB36890055D7FC;
+					};
+					4824CE142DCB368B0055D7FC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4824CDFA2DCB36890055D7FC;
+					};
+				};
+			};
+			buildConfigurationList = 4824CDF62DCB36890055D7FC /* Build configuration list for PBXProject "RecoHair" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4824CDF22DCB36890055D7FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4824CDFC2DCB36890055D7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4824CDFA2DCB36890055D7FC /* RecoHair */,
+				4824CE0A2DCB368B0055D7FC /* RecoHairTests */,
+				4824CE142DCB368B0055D7FC /* RecoHairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4824CDF92DCB36890055D7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE092DCB368B0055D7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE132DCB368B0055D7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4824CDF72DCB36890055D7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE072DCB368B0055D7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4824CE112DCB368B0055D7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4824CE0D2DCB368B0055D7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4824CDFA2DCB36890055D7FC /* RecoHair */;
+			targetProxy = 4824CE0C2DCB368B0055D7FC /* PBXContainerItemProxy */;
+		};
+		4824CE172DCB368B0055D7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4824CDFA2DCB36890055D7FC /* RecoHair */;
+			targetProxy = 4824CE162DCB368B0055D7FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4824CE1D2DCB368B0055D7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4824CE1E2DCB368B0055D7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4824CE202DCB368B0055D7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecoHair/Preview Content\"";
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4824CE212DCB368B0055D7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecoHair/Preview Content\"";
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4824CE232DCB368B0055D7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecoHair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecoHair";
+			};
+			name = Debug;
+		};
+		4824CE242DCB368B0055D7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecoHair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecoHair";
+			};
+			name = Release;
+		};
+		4824CE262DCB368B0055D7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecoHair;
+			};
+			name = Debug;
+		};
+		4824CE272DCB368B0055D7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVJ8MJCWJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sominjun.RecoHairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecoHair;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4824CDF62DCB36890055D7FC /* Build configuration list for PBXProject "RecoHair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4824CE1D2DCB368B0055D7FC /* Debug */,
+				4824CE1E2DCB368B0055D7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4824CE1F2DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4824CE202DCB368B0055D7FC /* Debug */,
+				4824CE212DCB368B0055D7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4824CE222DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4824CE232DCB368B0055D7FC /* Debug */,
+				4824CE242DCB368B0055D7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4824CE252DCB368B0055D7FC /* Build configuration list for PBXNativeTarget "RecoHairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4824CE262DCB368B0055D7FC /* Debug */,
+				4824CE272DCB368B0055D7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4824CDF32DCB36890055D7FC /* Project object */;
+}
